@@ -159,6 +159,8 @@ async function testeamosBusquedaPorId() {
 
 testeamosBusquedaPorId();
 
+
+
 const salsa = {
     id: 1,
     title: "salsa tomate", 
@@ -169,8 +171,15 @@ const salsa = {
     stock: 30
 };
 
+
+
 async function testeamosActualizar() {
     await manager.updateProduct(1, salsa);
 }
 
-testeamosActualizar();
+
+
+
+testeamosActualizar() ;
+
+
